@@ -1,3 +1,14 @@
+const String tableCustomers = 'customers';
+
+class CustomerField {
+  static const String id = '_id';
+  static const String name = 'name';
+  static const String email = 'email';
+  static const String nationality = 'nationality';
+  static const String ssn = 'ssn';
+  static const String balance = 'balance';
+}
+
 class CustomerModel {
   String? id;
   String? name;
